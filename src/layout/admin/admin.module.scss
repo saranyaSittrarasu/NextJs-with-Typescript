@@ -1,0 +1,10 @@
+.page-content-wrapper {
+    min-height: calc(100vh - 56px);
+}
+
+@media (min-width: 768px) {
+    .page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+}
